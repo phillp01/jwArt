@@ -1,0 +1,42 @@
+<navbar></navbar>
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-12" >
+			<div class="titleBar">
+				<h3>{{imageDetails.desc}}</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-7" >
+			<div style="border:0px solid black" >
+				<div style="border:0px solid red"><img ng-src="{{imageDetails.src}}"></div>
+			</div>
+		</div>
+		
+		<div class="col-md-5" style="border:0px solid red">
+			<div id="imageDetails">
+				<h3>{{imageDetails.desc}}</h3>
+				<h5>by {{imageDetails.artist}}</h5>
+				<h4>Details</h4>
+				<h5>{{imageDetails.medium}}</h5>
+				<h5>Size: {{imageDetails.size}}</h5>
+				<h5>Availability: {{imageDetails.availability}}</h5>
+				<h5>Price: <b>{{imageDetails.price}}</b></h5>
+				<br/><br/>
+				<a href="#/gallery">
+					<p class="hoverLink" style="border:0px solid black">
+						<span class="glyphicon glyphicon-th" style="font-size:30px; border:0px solid red;display:inline-block; vertical-align: middle;" ></span>
+						<span style="border:0px solid black;display:inline-block; vertical-align: middle;">Back to Main Gallery</span>
+					</p>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- <img ng-src="{{imageDetails.src}}" ng-alt="{{imageDetails.desc}}"> -->

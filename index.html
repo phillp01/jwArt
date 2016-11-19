@@ -1,27 +1,54 @@
 <!DOCTYPE html>
-<html ng-app='TodoApp'>
+<html ng-app='jwArt'>
+<!-- <meta name="viewport" content="width=device-device, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 <head>
-    <title>Angular Todo</title>
-    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <title>James Woodall Art</title>
+    
+
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    
     <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
     <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
-    <script type="text/javascript" src="bower_components/a0-angular-storage/dist/angular-storage.min.js"></script>
+
+    <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+    
+    <script src="bower_components/jquery-bridget/jquery-bridget.js"></script>
+    <script src="bower_components/ev-emitter/ev-emitter.js"></script>
+    <script src="bower_components/desandro-matches-selector/matches-selector.js"></script>
+    <script src="bower_components/fizzy-ui-utils/utils.js"></script>
+    <script src="bower_components/get-size/get-size.js"></script>
+    <script src="bower_components/outlayer/item.js"></script>
+    <script src="bower_components/outlayer/outlayer.js"></script>
+    <script src="bower_components/masonry/masonry.js"></script>
+    <script src="bower_components/imagesloaded/imagesloaded.js"></script>
+    <script src="bower_components/angular-masonry/angular-masonry.js"></script>
+
+    <link rel="stylesheet" href="lightbox/lightbox2-master/dist/css/lightbox.min.css">
+    
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <style type="text/css">
-    	body	{
-    		padding-top:70px;
-    	}	
+        body {
+            padding-top: 130px;
+        }
     </style>
+
 </head>
+
 <body>
     <div ng-view>
-    
+ 
     </div>
-<script type="text/javascript" src="js/app.js"></script>
-<script type="text/javascript" src="js/controller.js"></script>
-<script type="text/javascript" src="js/service.js"></script>
-<script type="text/javascript" src='js/directive.js'></script>
+
+    <script src='js/app.js'></script>
+    <script src='js/controller.js'></script>
+    <script src='js/service.js'></script>
+    <script src='js/directive.js'></script>
+    <script src="lightbox/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
+
 </body>
 </html>

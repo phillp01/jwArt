@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/phillp01/jwArt/issues"
   },
-  "homepage": "https://github.com/phillp01/jwArt#readme"
+  "homepage": "https://github.com/phillp01/jwArt#readme",
+  "dependencies": {}
 }

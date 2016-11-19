@@ -1,0 +1,183 @@
+.navbar-default	{
+	background-color:#fff;
+	/*height:100px;*/
+}
+
+ul	{
+	padding-top:20px;
+	border:0px;
+}
+
+#frontImage	{
+	display:block;
+	width:85%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+h4	{
+	color:#3C3C3A;
+}
+
+p {
+	color:#3C3C3A;
+}
+
+img {
+	max-width: 100%;
+}
+
+.thumbnails a {
+	padding-right:15px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+}
+
+.thumbnails img 	{
+	transition: all .2s ease-in-out;
+}
+
+.thumbnails:hover img 	{
+	opacity: .6;
+	/*transform: scale(0.9);*/
+}
+
+.thumbnails img:hover	{
+	opacity: 1;
+	transform: rotate(0deg);
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	/*transform: scale(1.1);*/
+}
+
+.hoverLink:hover	{
+	transition: all .2s ease-in-out;
+	color:#404040;
+}
+
+.hoverLink	{
+	transition: all .2s ease-in-out;
+}
+
+
+.navbar-toggle .icon-bar{ 
+	/*background-color: #fff;*/
+}
+
+.navbar-toggle	{
+	margin-top:40px;
+	border:0px;
+	border:0px;
+}
+
+.navbar 	{
+	border:0px;
+	margin-bottom: 0px;
+	height:3cm;
+}
+
+.navbar-nav		{
+	border:0px;
+	background-color:#fff;
+
+}
+
+.titleBar	{
+	padding:20px;
+	margin-bottom: 20px;
+	background-color: #3C3C3A;
+	color:#fff;
+}
+
+.titleBar h3	{
+	margin:0px;
+}
+
+#functionsBar	{
+	border:0px solid red;
+	margin-bottom: 20px;
+}
+
+#searchBox	{
+	height :40px;
+	width:100%;
+	border:1px solid #acacac;
+	padding-left: 20px;
+}
+
+#imageDetails	{
+	border:1px solid black;
+	padding:10px;
+}
+
+.form-control		{
+	border-radius: 0px;
+	margin-bottom: 15px;
+}
+
+.form-control.message		{
+	height:2.5cm;
+}
+
+.input-group-addon		{
+	border-radius: 0px;
+}
+
+.help-block	{
+	text-indent: 50px;
+}
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+/*// css specific properties col-lg-**/
+
+}
+ 
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+/*// css specific properties col-md-**/
+
+/*	#searchBox	{
+		height :40px;
+		width:25%;
+		border:1px solid #acacac;
+		padding-left: 20px;
+	}*/
+
+}
+ 
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+/*// css specific properties col-sm-**/
+
+}
+ 
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+/*// css specific properties col-xs-**/
+
+/*	#searchBox	{
+		height :40px;
+		width:50%;
+		border:1px solid #acacac;
+		padding-left: 20px;
+	}*/
+
+}
+ 
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+/*// css specific properties col-xs-* or none for default*/
+
+/*	#searchBox	{
+		height :40px;
+		width:100%;
+		border:1px solid #acacac;
+		padding-left: 20px;
+	}*/
+
+}

@@ -1,0 +1,27 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12" style="border:0px solid red">
+			<div class="titleBar">
+				<h3>Main Gallery</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4" style="border:0px solid red">
+			<div id="functionsBar">
+				<input placeholder="Search by name" id="searchBox" ng-model="searchText">
+			</div>
+		</div>
+	</div>
+
+			
+
+			<div masonry column-width="" class="thumbnails group">
+				<a class="masonry-brick {{hides.class}}" ng-hide="show" ng-click="viewPic(x)" ng-repeat="x in photos | filter:searchText | orderBy: ['id','collection']" style="width:{{x.thumbSize}}%"><img ng-src="{{x.thumbnail}}" alt="{{x.desc}}"></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+ <!-- data-lightbox="gallery" -->
